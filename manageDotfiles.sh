@@ -14,6 +14,7 @@ declare -a files=(
 			~/.xinitrc
 			~/manageDotfiles.sh
 			~/.bashrc
+			~/.vimrc
 		) 
 
 # Loop over file track changes  and add them

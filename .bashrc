@@ -112,5 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#Export path
+PATH=$PATH:/usr/local/src/firefox/
 #to change default PS1 behaviour
-export PS1="\[\e[36m\][\[\e[m\]\[\e[37m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]>\[\e[m\]\[\e[32m\]>\[\e[m\]\[\e[34m\]>\[\e[m\] "
+PS1="\[\e[36m\][\[\e[m\]\[\e[37m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]>\[\e[m\]\[\e[32m\]>\[\e[m\]\[\e[34m\]>\[\e[m\] "
