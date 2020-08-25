@@ -1,0 +1,1381 @@
+﻿###
+###  vlc 3.0.10
+###
+
+###
+### lines beginning with a '#' character are comments
+###
+
+[notify] # LibNotify Notification Plugin
+
+# Timeout (ms) (integer)
+#notify-timeout=4000
+
+[qt] # Qt interface
+
+# Start in minimal view (without menus) (boolean)
+qt-minimal-view=1
+
+# Systray icon (boolean)
+#qt-system-tray=1
+
+# Show notification popup on track change (integer)
+#qt-notification=1
+
+# Start VLC with only a systray icon (boolean)
+#qt-start-minimized=0
+
+# Pause the video playback when minimized (boolean)
+#qt-pause-minimized=0
+
+# Windows opacity between 0.1 and 1 (float)
+#qt-opacity=1.000000
+
+# Fullscreen controller opacity between 0.1 and 1 (float)
+#qt-fs-opacity=0.800000
+
+# Resize interface to the native video size (boolean)
+#qt-video-autoresize=1
+
+# Show playing item name in window title (boolean)
+#qt-name-in-title=1
+
+# Show a controller in fullscreen mode (boolean)
+#qt-fs-controller=1
+
+# Save the recently played items in the menu (boolean)
+#qt-recentplay=1
+
+# List of words separated by | to filter (string)
+#qt-recentplay-filter=
+
+# Continue playback? (integer)
+#qt-continue=1
+
+# Embed the file browser in open dialog (boolean)
+#qt-embedded-open=0
+
+# Show advanced preferences over simple ones (boolean)
+#qt-advanced-pref=0
+
+# Show unimportant error and warnings dialogs (boolean)
+#qt-error-dialogs=1
+
+# Define the colors of the volume slider (string)
+#qt-slider-colours=153;210;153;20;210;20;255;199;15;245;39;29
+
+# Ask for network policy at start (boolean)
+qt-privacy-ask=0
+
+# Define which screen fullscreen goes (integer)
+#qt-fullscreen-screennumber=-1
+
+# Load extensions on startup (boolean)
+#qt-autoload-extensions=1
+
+# Display background cone or art (boolean)
+#qt-bgcone=1
+
+# Expanding background cone or art (boolean)
+#qt-bgcone-expands=0
+
+# Allow automatic icon changes (boolean)
+#qt-icon-change=1
+
+# Maximum Volume displayed (integer)
+#qt-max-volume=125
+
+# Fullscreen controller mouse sensitivity (integer)
+#qt-fs-sensitivity=3
+
+# When to raise the interface (integer)
+#qt-auto-raise=1
+
+[smb] # SMB input
+
+# Username (string)
+#smb-user=
+
+# Password (string)
+#smb-pwd=
+
+# SMB domain (string)
+#smb-domain=
+
+[core] # core program
+
+# Enable audio (boolean)
+#audio=1
+
+# Audio gain (float)
+#gain=1.000000
+
+# Audio output volume step (float)
+#volume-step=12.800000
+
+# Remember the audio volume (boolean)
+#volume-save=1
+
+# Force S/PDIF support (boolean)
+#spdif=0
+
+# Force detection of Dolby Surround (integer)
+#force-dolby-surround=0
+
+# Stereo audio output mode (integer)
+#stereo-mode=0
+
+# Audio desynchronization compensation (integer)
+#audio-desync=0
+
+# Replay gain mode (string)
+#audio-replay-gain-mode=none
+
+# Replay preamp (float)
+#audio-replay-gain-preamp=0.000000
+
+# Default replay gain (float)
+#audio-replay-gain-default=-7.000000
+
+# Peak protection (boolean)
+#audio-replay-gain-peak-protection=1
+
+# Enable time stretching audio (boolean)
+#audio-time-stretch=1
+
+# Audio output module (string)
+#aout=
+
+# Media role (string)
+#role=video
+
+# Audio filters (string)
+#audio-filter=
+
+# Audio visualizations (string)
+#audio-visual=none
+
+# Audio resampler (string)
+#audio-resampler=
+
+# Enable video (boolean)
+#video=1
+
+# Grayscale video output (boolean)
+#grayscale=0
+
+# Fullscreen video output (boolean)
+#fullscreen=0
+
+# Embedded video (boolean)
+#embedded-video=1
+
+#  (boolean)
+#xlib=1
+
+# Drop late frames (boolean)
+#drop-late-frames=1
+
+# Skip frames (boolean)
+#skip-frames=1
+
+# Quiet synchro (boolean)
+#quiet-synchro=0
+
+# Key press events (boolean)
+#keyboard-events=1
+
+# Mouse events (boolean)
+#mouse-events=1
+
+# Always on top (boolean)
+#video-on-top=0
+
+# Enable wallpaper mode (boolean)
+#video-wallpaper=0
+
+# Disable screensaver (boolean)
+#disable-screensaver=1
+
+# Show media title on video (boolean)
+#video-title-show=1
+
+# Show video title for x milliseconds (integer)
+#video-title-timeout=5000
+
+# Position of video title (integer)
+#video-title-position=8
+
+# Hide cursor and fullscreen controller after x milliseconds (integer)
+#mouse-hide-timeout=1000
+
+# Video snapshot directory (or filename) (string)
+#snapshot-path=
+
+# Video snapshot file prefix (string)
+#snapshot-prefix=vlcsnap-
+
+# Video snapshot format (string)
+#snapshot-format=png
+
+# Display video snapshot preview (boolean)
+#snapshot-preview=1
+
+# Use sequential numbers instead of timestamps (boolean)
+#snapshot-sequential=0
+
+# Video snapshot width (integer)
+#snapshot-width=-1
+
+# Video snapshot height (integer)
+#snapshot-height=-1
+
+# Video width (integer)
+#width=-1
+
+# Video height (integer)
+#height=-1
+
+# Video X coordinate (integer)
+#video-x=0
+
+# Video Y coordinate (integer)
+#video-y=0
+
+# Video cropping (string)
+#crop=
+
+# Custom crop ratios list (string)
+#custom-crop-ratios=
+
+# Source aspect ratio (string)
+#aspect-ratio=
+
+# Video Auto Scaling (boolean)
+#autoscale=1
+
+# Monitor pixel aspect ratio (string)
+#monitor-par=
+
+# Custom aspect ratios list (string)
+#custom-aspect-ratios=
+
+# Fix HDTV height (boolean)
+#hdtv-fix=1
+
+# Window decorations (boolean)
+#video-deco=1
+
+# Video title (string)
+#video-title=
+
+# Video alignment (integer)
+#align=0
+
+# Zoom video (float)
+#zoom=1.000000
+
+# Deinterlace (integer)
+#deinterlace=-1
+
+# Deinterlace mode (string)
+#deinterlace-mode=auto
+
+# Video output module (string)
+#vout=
+
+# Video filter module (string)
+#video-filter=
+
+# Video splitter module (string)
+#video-splitter=
+
+# Enable sub-pictures (boolean)
+#spu=1
+
+# On Screen Display (boolean)
+#osd=1
+
+# Text rendering module (string)
+#text-renderer=
+
+# Use subtitle file (string)
+#sub-file=
+
+# Autodetect subtitle files (boolean)
+#sub-autodetect-file=1
+
+# Subtitle autodetection fuzziness (integer)
+#sub-autodetect-fuzzy=3
+
+# Subtitle autodetection paths (string)
+#sub-autodetect-path=./Subtitles, ./subtitles, ./Subs, ./subs
+
+# Force subtitle position (integer)
+#sub-margin=0
+
+# Subpictures source module (string)
+#sub-source=
+
+# Subpictures filter module (string)
+#sub-filter=
+
+# Program (integer)
+#program=0
+
+# Programs (string)
+#programs=
+
+# Audio track (integer)
+#audio-track=-1
+
+# Subtitle track (integer)
+#sub-track=-1
+
+# Audio language (string)
+#audio-language=
+
+# Subtitle language (string)
+#sub-language=
+
+# Menu language (string)
+#menu-language=
+
+# Audio track ID (integer)
+#audio-track-id=-1
+
+# Subtitle track ID (integer)
+#sub-track-id=-1
+
+# Preferred Closed Captions decoder (integer)
+#captions=608
+
+# Preferred video resolution (integer)
+#preferred-resolution=-1
+
+# Input repetitions (integer)
+#input-repeat=0
+
+# Start time (float)
+#start-time=0.000000
+
+# Stop time (float)
+#stop-time=0.000000
+
+# Run time (float)
+#run-time=0.000000
+
+# Fast seek (boolean)
+#input-fast-seek=0
+
+# Playback speed (float)
+#rate=1.000000
+
+# Input list (string)
+#input-list=
+
+# Input slave (experimental) (string)
+#input-slave=
+
+# Bookmarks list for a stream (string)
+#bookmarks=
+
+# DVD device (string)
+#dvd=/dev/sr0
+
+# VCD device (string)
+#vcd=/dev/sr0
+
+# MTU of the network interface (integer)
+#mtu=1400
+
+# TCP connection timeout (integer)
+#ipv4-timeout=5000
+
+# HTTP server address (string)
+#http-host=
+
+# HTTP server port (integer)
+#http-port=8080
+
+# HTTPS server port (integer)
+#https-port=8443
+
+# RTSP server address (string)
+#rtsp-host=
+
+# RTSP server port (integer)
+#rtsp-port=554
+
+# HTTP/TLS server certificate (string)
+#http-cert=
+
+# HTTP/TLS server private key (string)
+#http-key=
+
+# SOCKS server (string)
+#socks=
+
+# SOCKS user name (string)
+#socks-user=
+
+# SOCKS password (string)
+#socks-pwd=
+
+# Title metadata (string)
+#meta-title=
+
+# Author metadata (string)
+#meta-author=
+
+# Artist metadata (string)
+#meta-artist=
+
+# Genre metadata (string)
+#meta-genre=
+
+# Copyright metadata (string)
+#meta-copyright=
+
+# Description metadata (string)
+#meta-description=
+
+# Date metadata (string)
+#meta-date=
+
+# URL metadata (string)
+#meta-url=
+
+# File caching (ms) (integer)
+#file-caching=1000
+
+# Live capture caching (ms) (integer)
+#live-caching=300
+
+# Disc caching (ms) (integer)
+#disc-caching=300
+
+# Network caching (ms) (integer)
+#network-caching=1000
+
+# Clock reference average counter (integer)
+#cr-average=40
+
+# Clock synchronisation (integer)
+#clock-synchro=-1
+
+# Clock jitter (integer)
+#clock-jitter=5000
+
+# Network synchronisation (boolean)
+#network-synchronisation=0
+
+# Record directory (string)
+#input-record-path=
+
+# Prefer native stream recording (boolean)
+#input-record-native=1
+
+# Timeshift directory (string)
+#input-timeshift-path=
+
+# Timeshift granularity (integer)
+#input-timeshift-granularity=-1
+
+# Change title according to current media (string)
+#input-title-format=$Z
+
+# Disable all lua plugins (boolean)
+#lua=1
+
+# Preferred decoders list (string)
+#codec=
+
+# Preferred encoders list (string)
+#encoder=
+
+# Access module (string)
+#access=
+
+# Demux module (string)
+#demux=any
+
+# Stream filter module (string)
+#stream-filter=
+
+# Demux filter module (string)
+#demux-filter=
+
+# Default stream output chain (string)
+#sout=
+
+# Display while streaming (boolean)
+#sout-display=0
+
+# Keep stream output open (boolean)
+#sout-keep=0
+
+# Enable streaming of all ES (boolean)
+#sout-all=1
+
+# Enable audio stream output (boolean)
+#sout-audio=1
+
+# Enable video stream output (boolean)
+#sout-video=1
+
+# Enable SPU stream output (boolean)
+#sout-spu=1
+
+# Stream output muxer caching (ms) (integer)
+#sout-mux-caching=1500
+
+# VLM configuration file (string)
+#vlm-conf=
+
+# SAP announcement interval (integer)
+#sap-interval=5
+
+# Mux module (string)
+#mux=
+
+# Access output module (string)
+#access_output=
+
+# Hop limit (TTL) (integer)
+#ttl=-1
+
+# Multicast output interface (string)
+#miface=
+
+# DiffServ Code Point (integer)
+#dscp=0
+
+# Preferred packetizer list (string)
+#packetizer=
+
+# VoD server module (string)
+#vod-server=
+
+# Use a plugins cache (boolean)
+#plugins-cache=1
+
+# Scan for new plugins (boolean)
+#plugins-scan=1
+
+# Preferred keystore list (string)
+#keystore=
+
+# Allow real-time priority (boolean)
+#rt-priority=0
+
+# Adjust VLC priority (integer)
+#rt-offset=0
+
+# Play files randomly forever (boolean)
+#random=0
+
+# Repeat all (boolean)
+#loop=0
+
+# Repeat current item (boolean)
+#repeat=0
+
+# Play and exit (boolean)
+#play-and-exit=0
+
+# Play and stop (boolean)
+#play-and-stop=0
+
+# Play and pause (boolean)
+#play-and-pause=0
+
+# Start paused (boolean)
+#start-paused=0
+
+# Auto start (boolean)
+#playlist-autostart=1
+
+# Pause on audio communication (boolean)
+#playlist-cork=1
+
+# Allow only one running instance (boolean)
+#one-instance=0
+
+# Use only one instance when started from file manager (boolean)
+#one-instance-when-started-from-file=1
+
+# Enqueue items into playlist in one instance mode (boolean)
+#playlist-enqueue=0
+
+# Expose media player via D-Bus (boolean)
+#dbus=0
+
+# Use media library (boolean)
+#media-library=0
+
+# Display playlist tree (boolean)
+#playlist-tree=0
+
+# Default stream (string)
+#open=
+
+# Automatically preparse items (boolean)
+#auto-preparse=1
+
+# Preparsing timeout (integer)
+#preparse-timeout=5000
+
+# Allow metadata network access (boolean)
+metadata-network-access=1
+
+# Subdirectory behavior (string)
+#recursive=collapse
+
+# Ignored extensions (string)
+#ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
+
+# Show hidden files (boolean)
+#show-hiddenfiles=0
+
+# Services discovery modules (string)
+#services-discovery=
+
+# Run as daemon process (boolean)
+#daemon=0
+
+# Write process id to file (string)
+#pidfile=
+
+# Show advanced options (boolean)
+#advanced=0
+
+# Interface interaction (boolean)
+#interact=1
+
+# Locally collect statistics (boolean)
+#stats=1
+
+# Interface module (string)
+#intf=
+
+# Extra interface modules (string)
+#extraintf=
+
+# Control interfaces (string)
+#control=
+
+# Mouse wheel vertical axis control (integer)
+#hotkeys-y-wheel-mode=0
+
+# Mouse wheel horizontal axis control (integer)
+#hotkeys-x-wheel-mode=2
+
+# Fullscreen (string)
+#global-key-toggle-fullscreen=
+
+# Fullscreen (string)
+#key-toggle-fullscreen=f
+
+# Exit fullscreen (string)
+#global-key-leave-fullscreen=
+
+# Exit fullscreen (string)
+#key-leave-fullscreen=Esc
+
+# Play/Pause (string)
+#global-key-play-pause=
+
+# Play/Pause (string)
+#key-play-pause=Space	Media Play Pause
+
+# Pause only (string)
+#global-key-pause=
+
+# Pause only (string)
+#key-pause=Browser Stop
+
+# Play only (string)
+#global-key-play=
+
+# Play only (string)
+#key-play=Browser Refresh
+
+# Faster (string)
+#global-key-faster=
+
+# Faster (string)
+#key-faster=+
+
+# Slower (string)
+#global-key-slower=
+
+# Slower (string)
+#key-slower=-
+
+# Normal rate (string)
+#global-key-rate-normal=
+
+# Normal rate (string)
+#key-rate-normal==
+
+# Faster (fine) (string)
+#global-key-rate-faster-fine=
+
+# Faster (fine) (string)
+#key-rate-faster-fine=]
+
+# Slower (fine) (string)
+#global-key-rate-slower-fine=
+
+# Slower (fine) (string)
+#key-rate-slower-fine=[
+
+# Next (string)
+#global-key-next=
+
+# Next (string)
+#key-next=n	Media Next Track
+
+# Previous (string)
+#global-key-prev=
+
+# Previous (string)
+#key-prev=p	Media Prev Track
+
+# Stop (string)
+#global-key-stop=
+
+# Stop (string)
+#key-stop=s	Media Stop
+
+# Position (string)
+#global-key-position=
+
+# Position (string)
+#key-position=t
+
+# Very short backwards jump (string)
+#global-key-jump-extrashort=
+
+# Very short backwards jump (string)
+#key-jump-extrashort=Shift+Left
+
+# Very short forward jump (string)
+#global-key-jump+extrashort=
+
+# Very short forward jump (string)
+#key-jump+extrashort=Shift+Right
+
+# Short backwards jump (string)
+#global-key-jump-short=
+
+# Short backwards jump (string)
+#key-jump-short=Alt+Left
+
+# Short forward jump (string)
+#global-key-jump+short=
+
+# Short forward jump (string)
+#key-jump+short=Alt+Right
+
+# Medium backwards jump (string)
+#global-key-jump-medium=
+
+# Medium backwards jump (string)
+#key-jump-medium=Ctrl+Left
+
+# Medium forward jump (string)
+#global-key-jump+medium=
+
+# Medium forward jump (string)
+#key-jump+medium=Ctrl+Right
+
+# Long backwards jump (string)
+#global-key-jump-long=
+
+# Long backwards jump (string)
+#key-jump-long=Ctrl+Alt+Left
+
+# Long forward jump (string)
+#global-key-jump+long=
+
+# Long forward jump (string)
+#key-jump+long=Ctrl+Alt+Right
+
+# Next frame (string)
+#global-key-frame-next=
+
+# Next frame (string)
+#key-frame-next=e	Browser Next
+
+# Activate (string)
+#global-key-nav-activate=
+
+# Activate (string)
+#key-nav-activate=Enter
+
+# Navigate up (string)
+#global-key-nav-up=
+
+# Navigate up (string)
+#key-nav-up=Up
+
+# Navigate down (string)
+#global-key-nav-down=
+
+# Navigate down (string)
+#key-nav-down=Down
+
+# Navigate left (string)
+#global-key-nav-left=
+
+# Navigate left (string)
+#key-nav-left=Left
+
+# Navigate right (string)
+#global-key-nav-right=
+
+# Navigate right (string)
+#key-nav-right=Right
+
+# Go to the DVD menu (string)
+#global-key-disc-menu=
+
+# Go to the DVD menu (string)
+#key-disc-menu=Shift+m
+
+# Select previous DVD title (string)
+#global-key-title-prev=
+
+# Select previous DVD title (string)
+#key-title-prev=Shift+o
+
+# Select next DVD title (string)
+#global-key-title-next=
+
+# Select next DVD title (string)
+#key-title-next=Shift+b
+
+# Select prev DVD chapter (string)
+#global-key-chapter-prev=
+
+# Select prev DVD chapter (string)
+#key-chapter-prev=Shift+p
+
+# Select next DVD chapter (string)
+#global-key-chapter-next=
+
+# Select next DVD chapter (string)
+#key-chapter-next=Shift+n
+
+# Quit (string)
+#global-key-quit=
+
+# Quit (string)
+#key-quit=Ctrl+q
+
+# Volume up (string)
+#global-key-vol-up=
+
+# Volume up (string)
+#key-vol-up=Ctrl+Up	Volume Up
+
+# Volume down (string)
+#global-key-vol-down=
+
+# Volume down (string)
+#key-vol-down=Ctrl+Down	Volume Down
+
+# Mute (string)
+#global-key-vol-mute=
+
+# Mute (string)
+#key-vol-mute=m	Volume Mute
+
+# Subtitle delay up (string)
+#global-key-subdelay-up=
+
+# Subtitle delay up (string)
+#key-subdelay-up=h
+
+# Subtitle delay down (string)
+#global-key-subdelay-down=
+
+# Subtitle delay down (string)
+#key-subdelay-down=g
+
+# Subtitle sync / bookmark audio timestamp (string)
+#global-key-subsync-markaudio=
+
+# Subtitle sync / bookmark audio timestamp (string)
+#key-subsync-markaudio=Shift+h
+
+# Subtitle sync / bookmark subtitle timestamp (string)
+#global-key-subsync-marksub=
+
+# Subtitle sync / bookmark subtitle timestamp (string)
+#key-subsync-marksub=Shift+j
+
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
+#global-key-subsync-apply=
+
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
+#key-subsync-apply=Shift+k
+
+# Subtitle sync / reset audio & subtitle synchronization (string)
+#global-key-subsync-reset=
+
+# Subtitle sync / reset audio & subtitle synchronization (string)
+#key-subsync-reset=Ctrl+Shift+k
+
+# Subtitle position up (string)
+#global-key-subpos-up=
+
+# Subtitle position up (string)
+#key-subpos-up=
+
+# Subtitle position down (string)
+#global-key-subpos-down=
+
+# Subtitle position down (string)
+#key-subpos-down=
+
+# Audio delay up (string)
+#global-key-audiodelay-up=
+
+# Audio delay up (string)
+#key-audiodelay-up=k
+
+# Audio delay down (string)
+#global-key-audiodelay-down=
+
+# Audio delay down (string)
+#key-audiodelay-down=j
+
+# Cycle audio track (string)
+#global-key-audio-track=
+
+# Cycle audio track (string)
+#key-audio-track=b
+
+# Cycle through audio devices (string)
+#global-key-audiodevice-cycle=
+
+# Cycle through audio devices (string)
+#key-audiodevice-cycle=Shift+a
+
+# Cycle subtitle track in reverse order (string)
+#global-key-subtitle-revtrack=
+
+# Cycle subtitle track in reverse order (string)
+#key-subtitle-revtrack=Alt+v
+
+# Cycle subtitle track (string)
+#global-key-subtitle-track=
+
+# Cycle subtitle track (string)
+#key-subtitle-track=v
+
+# Toggle subtitles (string)
+#global-key-subtitle-toggle=
+
+# Toggle subtitles (string)
+#key-subtitle-toggle=Shift+v
+
+# Cycle next program Service ID (string)
+#global-key-program-sid-next=
+
+# Cycle next program Service ID (string)
+#key-program-sid-next=x
+
+# Cycle previous program Service ID (string)
+#global-key-program-sid-prev=
+
+# Cycle previous program Service ID (string)
+#key-program-sid-prev=Shift+x
+
+# Cycle source aspect ratio (string)
+#global-key-aspect-ratio=
+
+# Cycle source aspect ratio (string)
+#key-aspect-ratio=a
+
+# Cycle video crop (string)
+#global-key-crop=
+
+# Cycle video crop (string)
+#key-crop=c
+
+# Toggle autoscaling (string)
+#global-key-toggle-autoscale=
+
+# Toggle autoscaling (string)
+#key-toggle-autoscale=o
+
+# Increase scale factor (string)
+#global-key-incr-scalefactor=
+
+# Increase scale factor (string)
+#key-incr-scalefactor=Alt+o
+
+# Decrease scale factor (string)
+#global-key-decr-scalefactor=
+
+# Decrease scale factor (string)
+#key-decr-scalefactor=Alt+Shift+o
+
+# Toggle deinterlacing (string)
+#global-key-deinterlace=
+
+# Toggle deinterlacing (string)
+#key-deinterlace=d
+
+# Cycle deinterlace modes (string)
+#global-key-deinterlace-mode=
+
+# Cycle deinterlace modes (string)
+#key-deinterlace-mode=Shift+d
+
+# Show controller in fullscreen (string)
+#global-key-intf-show=
+
+# Show controller in fullscreen (string)
+#key-intf-show=i
+
+# Boss key (string)
+#global-key-intf-boss=
+
+# Boss key (string)
+#key-intf-boss=
+
+# Context menu (string)
+#global-key-intf-popup-menu=
+
+# Context menu (string)
+#key-intf-popup-menu=Menu
+
+# Take video snapshot (string)
+#global-key-snapshot=
+
+# Take video snapshot (string)
+#key-snapshot=Shift+s
+
+# Record (string)
+#global-key-record=
+
+# Record (string)
+#key-record=Shift+r
+
+# Zoom (string)
+#global-key-zoom=
+
+# Zoom (string)
+#key-zoom=z
+
+# Un-Zoom (string)
+#global-key-unzoom=
+
+# Un-Zoom (string)
+#key-unzoom=Shift+z
+
+# Toggle wallpaper mode in video output (string)
+#global-key-wallpaper=
+
+# Toggle wallpaper mode in video output (string)
+#key-wallpaper=w
+
+# Crop one pixel from the top of the video (string)
+#global-key-crop-top=
+
+# Crop one pixel from the top of the video (string)
+#key-crop-top=Alt+r
+
+# Uncrop one pixel from the top of the video (string)
+#global-key-uncrop-top=
+
+# Uncrop one pixel from the top of the video (string)
+#key-uncrop-top=Alt+Shift+r
+
+# Crop one pixel from the left of the video (string)
+#global-key-crop-left=
+
+# Crop one pixel from the left of the video (string)
+#key-crop-left=Alt+d
+
+# Uncrop one pixel from the left of the video (string)
+#global-key-uncrop-left=
+
+# Uncrop one pixel from the left of the video (string)
+#key-uncrop-left=Alt+Shift+d
+
+# Crop one pixel from the bottom of the video (string)
+#global-key-crop-bottom=
+
+# Crop one pixel from the bottom of the video (string)
+#key-crop-bottom=Alt+c
+
+# Uncrop one pixel from the bottom of the video (string)
+#global-key-uncrop-bottom=
+
+# Uncrop one pixel from the bottom of the video (string)
+#key-uncrop-bottom=Alt+Shift+c
+
+# Crop one pixel from the right of the video (string)
+#global-key-crop-right=
+
+# Crop one pixel from the right of the video (string)
+#key-crop-right=Alt+f
+
+# Uncrop one pixel from the right of the video (string)
+#global-key-uncrop-right=
+
+# Uncrop one pixel from the right of the video (string)
+#key-uncrop-right=Alt+Shift+f
+
+# Random (string)
+#global-key-random=
+
+# Random (string)
+#key-random=r
+
+# Normal/Loop/Repeat (string)
+#global-key-loop=
+
+# Normal/Loop/Repeat (string)
+#key-loop=l
+
+# Shrink the viewpoint field of view (360°) (string)
+#global-key-viewpoint-fov-in=
+
+# Shrink the viewpoint field of view (360°) (string)
+#key-viewpoint-fov-in=Page Up
+
+# Expand the viewpoint field of view (360°) (string)
+#global-key-viewpoint-fov-out=
+
+# Expand the viewpoint field of view (360°) (string)
+#key-viewpoint-fov-out=Page Down
+
+# Roll the viewpoint clockwise (360°) (string)
+#global-key-viewpoint-roll-clock=
+
+# Roll the viewpoint clockwise (360°) (string)
+#key-viewpoint-roll-clock=
+
+# Roll the viewpoint anti-clockwise (360°) (string)
+#global-key-viewpoint-roll-anticlock=
+
+# Roll the viewpoint anti-clockwise (360°) (string)
+#key-viewpoint-roll-anticlock=
+
+# 1:4 Quarter (string)
+#global-key-zoom-quarter=
+
+# 1:4 Quarter (string)
+#key-zoom-quarter=Alt+1
+
+# 1:2 Half (string)
+#global-key-zoom-half=
+
+# 1:2 Half (string)
+#key-zoom-half=Alt+2
+
+# 1:1 Original (string)
+#global-key-zoom-original=
+
+# 1:1 Original (string)
+#key-zoom-original=Alt+3
+
+# 2:1 Double (string)
+#global-key-zoom-double=
+
+# 2:1 Double (string)
+#key-zoom-double=Alt+4
+
+# Very short jump length (integer)
+#extrashort-jump-size=3
+
+# Short jump length (integer)
+#short-jump-size=10
+
+# Medium jump length (integer)
+#medium-jump-size=60
+
+# Long jump length (integer)
+#long-jump-size=300
+
+# Set playlist bookmark 1 (string)
+#global-key-set-bookmark1=
+
+# Set playlist bookmark 1 (string)
+#key-set-bookmark1=Ctrl+F1
+
+# Set playlist bookmark 2 (string)
+#global-key-set-bookmark2=
+
+# Set playlist bookmark 2 (string)
+#key-set-bookmark2=Ctrl+F2
+
+# Set playlist bookmark 3 (string)
+#global-key-set-bookmark3=
+
+# Set playlist bookmark 3 (string)
+#key-set-bookmark3=Ctrl+F3
+
+# Set playlist bookmark 4 (string)
+#global-key-set-bookmark4=
+
+# Set playlist bookmark 4 (string)
+#key-set-bookmark4=Ctrl+F4
+
+# Set playlist bookmark 5 (string)
+#global-key-set-bookmark5=
+
+# Set playlist bookmark 5 (string)
+#key-set-bookmark5=Ctrl+F5
+
+# Set playlist bookmark 6 (string)
+#global-key-set-bookmark6=
+
+# Set playlist bookmark 6 (string)
+#key-set-bookmark6=Ctrl+F6
+
+# Set playlist bookmark 7 (string)
+#global-key-set-bookmark7=
+
+# Set playlist bookmark 7 (string)
+#key-set-bookmark7=Ctrl+F7
+
+# Set playlist bookmark 8 (string)
+#global-key-set-bookmark8=
+
+# Set playlist bookmark 8 (string)
+#key-set-bookmark8=Ctrl+F8
+
+# Set playlist bookmark 9 (string)
+#global-key-set-bookmark9=
+
+# Set playlist bookmark 9 (string)
+#key-set-bookmark9=Ctrl+F9
+
+# Set playlist bookmark 10 (string)
+#global-key-set-bookmark10=
+
+# Set playlist bookmark 10 (string)
+#key-set-bookmark10=Ctrl+F10
+
+# Play playlist bookmark 1 (string)
+#global-key-play-bookmark1=
+
+# Play playlist bookmark 1 (string)
+#key-play-bookmark1=F1
+
+# Play playlist bookmark 2 (string)
+#global-key-play-bookmark2=
+
+# Play playlist bookmark 2 (string)
+#key-play-bookmark2=F2
+
+# Play playlist bookmark 3 (string)
+#global-key-play-bookmark3=
+
+# Play playlist bookmark 3 (string)
+#key-play-bookmark3=F3
+
+# Play playlist bookmark 4 (string)
+#global-key-play-bookmark4=
+
+# Play playlist bookmark 4 (string)
+#key-play-bookmark4=F4
+
+# Play playlist bookmark 5 (string)
+#global-key-play-bookmark5=
+
+# Play playlist bookmark 5 (string)
+#key-play-bookmark5=F5
+
+# Play playlist bookmark 6 (string)
+#global-key-play-bookmark6=
+
+# Play playlist bookmark 6 (string)
+#key-play-bookmark6=F6
+
+# Play playlist bookmark 7 (string)
+#global-key-play-bookmark7=
+
+# Play playlist bookmark 7 (string)
+#key-play-bookmark7=F7
+
+# Play playlist bookmark 8 (string)
+#global-key-play-bookmark8=
+
+# Play playlist bookmark 8 (string)
+#key-play-bookmark8=F8
+
+# Play playlist bookmark 9 (string)
+#global-key-play-bookmark9=
+
+# Play playlist bookmark 9 (string)
+#key-play-bookmark9=F9
+
+# Play playlist bookmark 10 (string)
+#global-key-play-bookmark10=
+
+# Play playlist bookmark 10 (string)
+#key-play-bookmark10=F10
+
+# Clear the playlist (string)
+#global-key-clear-playlist=
+
+# Clear the playlist (string)
+#key-clear-playlist=Ctrl+w
+
+# Reset subtitles text scale (string)
+#global-key-subtitle-text-scale-normal=
+
+# Reset subtitles text scale (string)
+#key-subtitle-text-scale-normal=Ctrl+0
+
+# Scale down subtitles text (string)
+#global-key-subtitle-text-scale-up=
+
+# Scale down subtitles text (string)
+#key-subtitle-text-scale-up=Ctrl+Mouse Wheel Up
+
+# Scale up subtitles text (string)
+#global-key-subtitle-text-scale-down=
+
+# Scale up subtitles text (string)
+#key-subtitle-text-scale-down=Ctrl+Mouse Wheel Down
+
+# Playlist bookmark 1 (string)
+#bookmark1=
+
+# Playlist bookmark 2 (string)
+#bookmark2=
+
+# Playlist bookmark 3 (string)
+#bookmark3=
+
+# Playlist bookmark 4 (string)
+#bookmark4=
+
+# Playlist bookmark 5 (string)
+#bookmark5=
+
+# Playlist bookmark 6 (string)
+#bookmark6=
+
+# Playlist bookmark 7 (string)
+#bookmark7=
+
+# Playlist bookmark 8 (string)
+#bookmark8=
+
+# Playlist bookmark 9 (string)
+#bookmark9=
+
+# Playlist bookmark 10 (string)
+#bookmark10=
+

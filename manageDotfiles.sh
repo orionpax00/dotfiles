@@ -9,10 +9,8 @@ declare -a folders=(
 		)
 
 declare -a files=(
-			~/.Xresources
 			~/.zshrc
 			~/.xinitrc
-			~/manageDotfiles.sh
 			~/.bashrc
 			~/.vimrc
 		) 

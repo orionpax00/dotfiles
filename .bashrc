@@ -111,7 +111,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
+NNN_OPENER=/home/user/.config/nnn/plugins/nuke
+alias xclip='xclip -sel c '
+alias nnn='nnn -o -c -T e'
 #Export path
 PATH=$PATH:/usr/local/src/firefox/
 #to change default PS1 behaviour
