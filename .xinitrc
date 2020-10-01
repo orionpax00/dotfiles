@@ -4,4 +4,6 @@ tilda &
 
 nitrogen --restore &
 
+dwmblocks &
+
 exec dwm

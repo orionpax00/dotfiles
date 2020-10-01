@@ -111,10 +111,23 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 NNN_OPENER=/home/user/.config/nnn/plugins/nuke
+NNN_PLUG='p:preview-tabbed'
+NNN_BMS='d:~/Documents;u:/home/user/Cam Upload:s;D:~/Downloads/'
+NNN_FIFO=/tmp/nnn.fifo
+
 alias xclip='xclip -sel c '
 alias nnn='nnn -o -c -T e'
+alias prepare='cat ../../template | tee a.cpp b.cpp c.cpp d.cpp e.cpp && cp ../../scripts/gen.cpp .'
+alias preparecontest='python3 /home/user/contest/question_solver/scripts/parse.py contest -n'
+alias todo='cat ~/todo'
+alias writetodo='cat >> ~/todo'
+alias sleetcode='cat >> ~/scoreleetcode'
+
+
 #Export path
-PATH=$PATH:/usr/local/src/firefox/
+PATH=$PATH:/usr/local/src/firefox/:/snap/bin/
 #to change default PS1 behaviour
-PS1="\[\e[36m\][\[\e[m\]\[\e[37m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]>\[\e[m\]\[\e[32m\]>\[\e[m\]\[\e[34m\]>\[\e[m\] "
+PS1="\[\e[36m\][\[\e[m\]\[\e[37m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\] "
+#PS1="\[\e[36m\][\[\e[m\]\[\e[37m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]>\[\e[m\]\[\e[32m\]>\[\e[m\]\[\e[34m\]>\[\e[m\] "
